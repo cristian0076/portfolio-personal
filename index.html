@@ -1,0 +1,259 @@
+<html>
+
+<head> <!--Configuraciones-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <title>Mi Portafolio Personal</title> <!--Titulo de pagina web-->
+   
+    <link rel="shortcut icon" type="image/svg" href="images/bolso.svg"/> <!--Imagenes consumidas por pagina web-->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> <!--Bootstrap-->
+
+    <script src="js/funciones.js"></script> <!-- Archivo JavaScript -->
+
+    <link rel="stylesheet" href="css/estilos.css"/>  <!-- .css ESTILO -->
+
+</head>
+
+<!--Fin de configuracion-->
+
+
+<!--Comienzo cuerpo de pagina web-->
+<body>
+
+<!-- Navegacion por header-->
+
+<div class="fondo-principal">
+   
+    <div class="container"> <!--  Contenedor para trabajar en forma de rejillas y asi poder adaptar los distintos tamaños de pantalla-->
+        <div class="header-container header">
+            <a href="images/CristianGabrielCastro-cv.docx">
+                <button class="header-btn">Descargar CV</button>  <!-- Utilizo la etiqueta <a> de hipervinculos para crear dentro un boton que redireccione a un link en este caso mi CV para descargar -->
+            </a>
+            <div class="header-right">
+                <a class="HeaderNavegacion" href="#inicio">Inicio</a>  <!-- Con la etiqueta <a> que se utiliza para crear hipervinculos la conecto a los id dentro de los div (diviciones de mi pagina web) -->
+                <a class="HeaderNavegacion" href="#Conocimientos">Conocimientos</a>
+                <a class="HeaderNavegacion" href="#AcercaDeMi">Acerca de mi</a  >
+                <a class="HeaderNavegacion" href="#Contacto">Contacto</a>
+            </div>
+        </div>
+        
+        <!--Fin Navegacion-->
+
+
+
+        <!-- Inicio - Seccion
+          ================================================== -->
+
+        <div id="inicio" class="Tamaño row">
+            <div class="ColorNombreYhabilidad col-sm-6 col-sm-6">
+                <h1 class="text-MiNombreEs bold"> Mi nombre es Cristian Gabriel Castro <br></h1>  <!-- <br> es un salto de linea (retorno de carro) -->
+                <p class ="text-habilidades" light> Me considero una persona con buen desempeño para trabajar con otros y con gran capacidad para comprender las ideas que los demás tratan de transmitir, buena capacidad de comprender y atender los problemas, gran habilidad para investigar y muy buena concentración para alcanzar metas, se lograr el equilibrio para mantener el orden.</p>
+                <a href="images/CristianGabrielCastro-cv.docx">
+                    <button class="btn-inicio"> Descargar CV </button> <!-- Boton dentro de etiqueta de link bajo primer parrafo en el inicio-->
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-sm-6 Recuadro">
+                <img class="Recuadro-Imagen img-responsive" src="images/yo.jpg"/>
+            </div>
+
+        </div> <!-- Fin ROW-->
+
+    </div> <!--Fin CONTAINER--> 
+
+</div>
+
+
+<!-- Conocimientos - Seccion
+  ================================================== -->
+
+  <div id="Conocimientos" class="Conocimientos-Seccion">
+
+    <div class="Conocimientos-container row">
+
+        <h2 class="Conocimientos-text light">Mis conocimientos informaticos</h2>
+
+        <div class="col-sm-2 Conocimientos">
+
+            <div>
+                <img class="Conocimientos-img" src="images/c++.png"  style="margin-top: -10%;">
+            </div>
+            <h5 class="Conocimientos-subtitulos" > C++ </h5>
+            <p class="light Conocimiento-Parrafo" > Los conocimientos de este lenguaje me fueron adquiridos por la carrera de TSP y ademas
+                                                   profundizando de manera autodidacta, Desarrolle diversos proyectos utilizando el IDE
+                                                   Codeblocks en la facultad y tambien desarrolle firmwares para microcontroladores por medio del
+                                                   IDE MPLAB en mi actual trabajo.
+                                                   </p>
+        </div>
+
+        <div class="col-sm-2 Conocimientos">
+            <div>
+            </div>
+            <img class="Conocimientos-img" src="images/.NET.ico"  style="margin-top: -3%;">
+            <h5 class="Conocimientos-subtitulos "> .NET </h5>
+            <p class="light Conocimiento-Parrafo"  >  Los conocimientos sobre .NET los adquiri en primera instancia en mi actual trabajo
+                                                    por medio del lenguaje de programacion VB.NET en el cual genere diversos desarrollos
+                                                    industriales y en lo que va del año me estoy adentrando en el mundo de c# por medio 
+                                                    de mi cursada en Programacion 3.
+                                                    </p>
+        </div>
+
+        <div class="col-sm-2 Conocimientos">
+            <div>
+                <img  src="images/microcontrolador.ico" style="margin-top: -20%;">
+            </div>
+            <h5 class="Conocimientos-subtitulos" > MICROCONTROLLERS</h5>
+            <p class="light Conocimiento-Parrafo">  Poseo conocimientos basico/intermedio en lo que respecta a los componentes necesarios para el desarrollos                            
+                de placas con integracion de microcontroladores de la marca Microchip utilizando el IDE MPLAB junto al lenguaje
+                de c++, ademas cuento con conocimientos en la programacion de Arduino con sus diversos shields.
+                </p>
+        </div>
+
+        <div class="col-sm-2 Conocimientos">
+            <div>
+                <img  src="images/SQL.ico" style="margin-top: -20%";>
+            </div>
+            <h5 class="Conocimientos-subtitulos"> SQL</h5>
+            <p class="light Conocimiento-Parrafo" style="text-align:center;"> Mis conocimientos de SQL comenzaron mediante Mysql y SqlServer en la 
+                                                    facultad y en mi primer trabajo como programador,
+                                                    realice mantenimientos de base de datos en sql, amplios reportes de distintos tipos y
+                                                    con diferente complejidad ademas de utilizarlo para base de datos de diversos  proyectos.
+                                                   .</p>
+        </div>
+
+        <div class="col-sm-2 Conocimientos">
+            <div>
+                <img  src="images/office.svg"  style="margin-top: -20%;">
+            </div>
+            <h5 class="Conocimientos-subtitulos" style="text-align:center;"> OFFICE</h5>
+            <p class="light Conocimiento-Parrafo"> mi experiencia con el paquete office se baso en Word para la creacion de distintos informes
+                                                   y manuales,Excel 
+                                                   para verificar tendencias, crear funciones y graficos,Access para el mantenimiento o la migracion a sql de antiguas apps
+                                                    y powerpoint para generar diapositivas de capacitaciones a ciertos proyectos.                         
+                                                    </p>
+        </div>
+    </div> <!--Contenedor - Conocimientos - Seccion-->
+
+</div> <!-- Fin- Conocimientos - Seccion -->
+
+
+
+<!-- Acerca de mi - Seccion
+  ================================================== -->
+
+<div class="yo-seccion row">
+
+    <div class="imac col-sm-6" style="left: 120px; top:100px;">
+        <img class="yo-imagen img-responsive" src="images/yo2.jpg">
+    </div>
+    <!--imac-->
+
+    <div class="col-sm-6">
+
+        <div id="AcercaDeMi" class="yo-seccion-texto">
+
+            <h2 class="yo-seccion-header light">Acerca de Mi</h2>
+
+            <div class="yo-span">
+            <span>  
+                Programador Junior: (Programación – Rowa S.A) (07/04/2019 - Actualidad): Las tareas realizadas consisten en dar soporte y mantenimiento a software industrial, mantenimiento y gestión de bases de datos, innovación, actualización y creación de proyectos informáticos (software industrial), desarrollos en microcontroladores, creación de manuales e instructivos, capacitaciones, soporte - mantenimiento de PC (hardware) y planeamientos e investigación.
+                </span>
+            </div>
+            <div class="yo-span">
+                <span>  
+                    FORMACION: Bachillerato en economía y administración: Economía. Colegio San Marcos. – España y Vco. De mayo 1490 – el talar.
+                    </span>
+                </div>
+                <div class="yo-span">
+                    <span>  
+                        IDIOMAS: Español (Nativo) - inglés (Técnico)
+                        </span>
+                    </div>
+        </div>
+    </div>
+</div><!-- Fin - Acerca de mi - Seccion --->
+
+
+
+<!-- Contacto - Seccion
+  ================================================== -->
+
+<div class="Contacto-Seccion">
+    
+    <h3 class="bold"> Contacto</h3>
+    <h4 class="light">Envieme un mensaje y a la brevedad nos estaremos contactando!</h4>
+
+
+    <div >
+        <form id="Contacto" class=" contacto-form">
+            <input id="nombre"  class="contacto-cajaText"
+                   placeholder="Nombre y Apellido">
+        </form>
+    </div>
+
+
+    <div >
+        <form id="Contacto" class=" contacto-form">
+            <input id="mail" type="email" class="contacto-cajaText" name="email" 
+                   placeholder="Ingrese su Email">
+        </form>
+    </div>
+
+
+    <div >
+        <form id="Contacto" class=" contacto-form">
+            <p style="color:black;"><textarea id ="mensaje" class="form-control contacto-cajaText" name="comentario" rows="5" cols="50">Escribe aquí tu comentario: </textarea></p> 
+        </form>
+        <button onclick="validar_form()" class="btn contacto-btn">Enviar</button>
+    </div>
+</div>
+<!--Fin Contacto - Seccion -->
+
+
+
+<!-- Footer (pie de pagina)
+  ================================================== -->
+
+<div class="footer">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-2"></div>
+
+            <div class="col-sm-8 logo">
+                <span class="logo-text" > © 2020 - By Cristian Gabriel Castro(CGC) - todos los derechos reservados </span>
+                <a href="www.Mifuturapagina.com" id="logoweb" onclick="alerta()"> <img src="images/logo.png"/> </a>
+            </div>
+            <!-- LOGO -->
+
+            <div class="col-sm-2">
+                <div class="Botones-Sociales">
+                    
+                    <a href="https://www.facebook.com"> <img
+                            src="images/facebook.svg"/> </a>
+                    <a href="https://www.instagram.com"> <img style="padding: 9%;"
+                                src="images/instagram.svg"/> </a>
+                    <a href="https://www.github.com/cristian0076"> <img class="Boton-Social"
+                                src="images/github.svg"/> </a>
+                    
+                </div>
+                
+            </div>
+
+        </div> <!-- FIN ROW -->
+
+    </div> <!-- FIN CONTAINER -->
+   
+</div> <!-- Fin footer (pie de pagina)-->
+
+
+
+</body>
+
+</html>
+

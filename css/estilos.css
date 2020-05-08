@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700'); /*Fuente*/
+
+body {
+    font-family: 'Montserrat', sans-serif; /*activamos tipo de fuente para el cuerpo*/
+}
+
+.header-right {
+    display: none;
+}
+
+.HeaderNavegacion {
+    color: #ffffff;
+    padding: 20px; /*espacio de relleno entre palablas del header (espacio entre palabras..)*/
+}
+
+.fondo-principal {
+    overflow: hidden;
+    position: relative; /*relative no superpone.*/
+    background: -webkit-linear-gradient(117deg, rgb(38, 141, 238), rgb(45, 63, 71)); /*color de fondo combinado*/
+  
+}
+
+
+.bold {
+    font-weight: 600; /*Negrita*/ /*fond weight especifica el grosor de la letra*/
+}
+
+.light {
+    font-weight: 300; /*fond weight especifica el grosor de la letra*/
+}
+
+.header { /*clase de estilo del encabezamiento*/
+    padding-top: 35px; /*espacio de altura de palabras en el encabezado.*/
+    width: 100%; /*ancho*/
+    height: 100px; /*alto*/
+    position: relative; /* no superpone.*/
+    z-index: 999; /*apilamiento*/
+}
+
+
+
+.header-btn { /*boton en el encabezado*/
+    background-color: #0ABCEB; /*color*/
+    border-radius: 10px; /*redondeo del boton*/
+    border: #0ABCEB; /*color de bordes*/
+    float: right; /*posicion del boton*/
+    width: 195px; /*ancho*/
+    height: 51px; /*alto*/
+    color: white; /*color de texto en el boton*/
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-top: -10px;
+    margin-right: -50px;
+}
+
+.header-btn:hover { /*boton presionado en el encabezado*/
+    background-color: #58d5f7;
+    color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+}
+
+.header-right { /*configuracion de posicion del encabezado inicial*/
+    display: block; /*para que se superponga*/
+    float: right;  /*a la derecha*/
+    padding: 6px 20px; /*espacios*/
+}
+
+.Tamaño { /*configuracion titulo y parrafo en inicio*/
+    position: relative;
+    z-index: 999;
+    padding-bottom: 230px; /*espaciado en el boton */
+}
+
+
+.ColorNombreYhabilidad {/*titulo y parrafo de inicio*/
+    color: rgb(255, 255, 255); /*Color*/
+    text-align: center; /*Texto centrado*/
+}
+
+.Recuadro { /*recuadro de imagen en inicio*/
+    display: none;
+}
+
+.Recuadro-Imagen { /*imagen dentro del recuadro en inicio*/
+    display: none;
+}
+
+.btn-inicio { /*boton de inicio*/
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: rgb(37, 166, 241);
+    border-radius: 10px; /*bordes*/
+    border: 1px solid rgb(48, 142, 189);
+    width: 210px;/*ancho*/
+    height: 51px; /*altura*/
+    color: white;
+    float: left; /*posicionado a la izquierda para que quede bien con el titulo y parrafo*/
+}
+
+.btn-inicio:hover { /*boton presionado en el inicio*/
+    background-color: #58d5f7;
+    color: white;
+    border-radius: 20px;/*bordes mas grandes al presionar para dar efecto*/
+    -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+}
+
+
+.text-MiNombreEs { /*titulo que contiene mi nombre en el inicio*/
+    padding-top: 0; /*ancho arriba entre palabras*/
+    padding-bottom: 15px;/*ancho hacia abajo entre palabras*/
+    text-align: left; /*alineacion a la izquierda*/
+}
+
+.text-habilidades { /*Parrafo de habilidades en inicio*/
+    text-align: left; /*alineacion a la izquierda*/
+    max-width: 287px;
+    line-height: 1.5;
+
+}
+
+.Conocimientos-Seccion {
+    background-color: rgb(83, 81, 81);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.Conocimientos-text {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.Conocimientos-container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.Conocimientos {
+
+    padding: 40px;
+    margin-right: 40px;
+}
+
+.Conocimientos-subtitulos {
+    color: white;
+    padding-top: 15px;
+ 
+}
+
+.Conocimiento-Parrafo{
+    color: white;
+    padding-top: 0;
+    
+}
+
+.Conocimientos-img {
+    max-width: 100px;
+}
+
+.yo-seccion {
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.yo-seccion-texto {
+    text-align: center;
+
+}
+
+
+.yo-seccion-header {
+    padding-bottom: 35px;
+}
+
+.yo-span {
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.yo-imagen {
+    color: red;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+.macbook {
+    position: relative;
+    z-index: 999;
+}
+
+
+.contacto-seccion {
+    background: -webkit-linear-gradient(117deg, rgb(38, 141, 238), rgb(45, 63, 71));
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.contacto-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-cajaText {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 210px;
+    height: 51px;
+    color: #808080;
+    margin-top: 20px;
+    border: none;
+}
+
+.contacto-btn {
+    background-color: #25F18B;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.contacto-btn:hover { /*Efecto al presionar boton*/
+    background-color: #6affb4;
+    color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    -moz-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+}
+
+
+.footer { /*Pie de pagina*/
+    background-color: #464646; /*Color de fondo del footer*/
+    padding-top: 20px; /*ancho hacia arriba para footer*/
+    padding-bottom: 20px; /*ancho hacia abajo para footer*/
+}
+
+.logo-text { /*footer text*/
+    color: white; /*color del texto en logo footer*/
+    font-size: 12px;/*Tamaño de fuente en el footer*/
+    padding-right: 7px; /*ancho hacia la derecha*/
+}
+
+.logo {
+    text-align: center; /*alineacion de texto*/
+    margin-top: -5px; /*ancho de margen superior para imagenes como en este caso o bloques*/
+}
+
+.Botones-Sociales {
+    float: none;
+    text-align: center;
+    padding-top: 10px;/*distancia entre botones sociales facebook-instagram-github*/
+}
+
+.Boton-Social {
+    margin-right: 15px;/*ancho de margen derecho para imagenes o bloques*/
+}
+
+@media only screen and (min-width: 768px) {
+
+    .Recuadro {
+        display: block;
+        position: absolute;
+        right: 100px;
+        z-index: 1;
+        height: 550px;
+        margin-top: 30px;
+       
+        max-width: 80%;
+        border-radius: 20px;
+        background: rgb(255, 255, 255);
+        box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, .25), 0 0px 33px rgba(0, 21, 64, .14), 0 10px 20px rgba(0, 21, 64, .05);
+    }
+
+    .Recuadro-Imagen{
+        display: block;
+        padding-bottom: 40px;
+        margin-top: 19px;
+        right: 1px;
+        width: 560px; height: 550px;
+    }
+
+    .yo-seccion-texto {
+        text-align: justify;
+        padding-top: 80px;
+        padding-left: 100px;
+    }
+
+    .yo-span {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+        max-width: 400px;
+        margin: inherit;
+        text-align: justify;
+    }
+}
